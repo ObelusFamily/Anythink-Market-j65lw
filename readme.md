@@ -33,7 +33,7 @@ docker-compose -v
 docker-compose up
 ```
 
-6. If everything worked properly, you should see compilation successful mesaage in the terminal, also server will start and links will be provided in the terminal . Ctrl+click (for windows) on the link - this will open up the running application
+6. If everything worked properly, you should see compilation successful mesaage in the terminal, also server will start and links will be provided in the terminal . Ctrl+click (for windows) on the link - this will open up the running application.
    <br>
    <br>
 
