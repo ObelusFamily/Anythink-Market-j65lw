@@ -10,4 +10,27 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Clone the repository
+2. We need docker to run the application, so install docker; if already installed proceed to next step
+3. Verify that docker is ready byt running the following commands in your terminal
+
+```
+docker -v
+```
+
+```
+docker-compose -v
+```
+
+4. Open terminal in the cloned projet root directory
+5. Run the following command to start the application
+
+```
+docker-compose up
+```
+
+6. If everything worked properly, you should see compilation successful mesaage in the terminal, also server will start and links will be provided in the terminal . Ctrl+click (for windows) on the link - this will open up the running application
+   <br>
+   <br>
+
+#### Happy development
